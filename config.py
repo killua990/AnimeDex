@@ -4,9 +4,9 @@
 from os import getenv
 
 
-API_KEY = "Paste Your Key Here"
+API_KEY = "GAQWAW"
 
-if not API_KEY or API_KEY == "Paste Your Key Here" or API_KEY == "":
+if not API_KEY or API_KEY == "GAQWAW" or API_KEY == "":
     API_KEY = getenv("API_KEY")
 
     if not API_KEY:
